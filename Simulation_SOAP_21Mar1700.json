@@ -1,0 +1,70 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version='1.0' encoding='UTF-8'?\u003e\u003cS:Envelope xmlns:S=\"http://schemas.xmlsoap.org/soap/envelope/\"\u003e\u003cS:Body\u003e\u003cns2:getHelloWorldAsStringResponse xmlns:ns2=\"http://ws.mkyong.com/\"\u003e\u003creturn\u003eHello World JAX-WS\u003c/return\u003e\u003c/ns2:getHelloWorldAsStringResponse\u003e\u003c/S:Body\u003e\u003c/S:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Type": [
+							"text/xml;charset=utf-8"
+						],
+						"Date": [
+							"Tue, 21 Mar 2017 11:55:27 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					}
+				},
+				"request": {
+					"requestType": "recording",
+					"path": "/HelloWorld-20101123/hello",
+					"method": "POST",
+					"destination": "localhost:8080",
+					"scheme": "http",
+					"query": "",
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:wsa=\"http://schemas.xmlsoap.org/ws/2004/03/addressing\"\u003e\u003csoap:Header\u003e\u003cwsa:Action\u003e\u003c/wsa:Action\u003e\u003cwsa:MessageID\u003euuid:f9806ee6-94a8-452b-8cf7-8d24d57271a7\u003c/wsa:MessageID\u003e\u003cwsa:ReplyTo\u003e\u003cwsa:Address\u003ehttp://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous\u003c/wsa:Address\u003e\u003c/wsa:ReplyTo\u003e\u003cwsa:To\u003ehttp://localhost:8080/HelloWorld-20101123/hello\u003c/wsa:To\u003e\u003c/soap:Header\u003e\u003csoap:Body\u003e\u003cgetHelloWorldAsString xmlns=\"http://ws.mkyong.com/\" /\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"headers": {
+						"Accept": [
+							"*/*"
+						],
+						"Accept-Encoding": [
+							"gzip, deflate"
+						],
+						"Cache-Control": [
+							"no-cache"
+						],
+						"Content-Length": [
+							"667"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Proxy-Connection": [
+							"Keep-Alive"
+						],
+						"Soapaction": [
+							"\"\""
+						],
+						"User-Agent": [
+							"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+						]
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v1",
+		"hoverflyVersion": "v0.10.2",
+		"timeExported": "2017-03-21T17:25:57+05:30"
+	}
+}

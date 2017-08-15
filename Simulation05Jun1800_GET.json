@@ -1,0 +1,70 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 304,
+					"body": "",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"36a368beef4150da-MIA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Date": [
+							"Mon, 05 Jun 2017 13:16:55 GMT"
+						],
+						"Etag": [
+							"W/\"8a-lOrFpQVA2OFa0hIdWYiM0A\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"regexMatch": "/api/users/*"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": ""
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.11.4",
+		"timeExported": "2017-06-05T18:47:19+05:30"
+	}
+}

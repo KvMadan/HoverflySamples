@@ -1,0 +1,253 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAAA6zO0YoCMQwF0H/Jc5niuLtIf0VE7tQ4U5k2pY3Krvjvi44gjI/6EnITyMmFMnomRy0Zyly2U1waUlGM5Bbto71vKrkvQzsoyK0vFHb3vA+l6jYh3g7xicnQiOdkkFHJEE5QlFtWzdVZW5cNIv4k4VwbL9Eewx6eq52qnoMqFxtRvBTEULjaRbtqDrmnq5n075neSzfTu/Gowxt8Vc4DpyiSXvSfma4Fnn8//EAX+ojkB3nym+s/AAAA//8DABJU1vC4AQAA",
+					"encodedBody": true,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"36a261765c4f531a-MIA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Mon, 05 Jun 2017 10:17:11 GMT"
+						],
+						"Etag": [
+							"W/\"1b8-uOMMnt0USc1fwfjz1WGjCA\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/users"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": "page=2"
+					},
+					"body": {
+						"jsonMatch": ""
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 201,
+					"body": "{\"name\":\"morpheus\",\"job\":\"leader\",\"id\":\"27\",\"createdAt\":\"2017-06-05T10:17:19.073Z\"}",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"36a261a26a1e531a-MIA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Mon, 05 Jun 2017 10:17:18 GMT"
+						],
+						"Etag": [
+							"W/\"53-dMHbc+ultKQ/37pFJ3ig0A\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/users"
+					},
+					"method": {
+						"exactMatch": "POST"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": "{\"name\":\"morpheus\",\"job\":\"leader\"}"
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAAAwTBQQqAIBAF0KvEX2uMRgmz6w6t2hkOZJCG6abo7r33IvlTwDhzuXZpNxSOvIHxxJy6IncMkioU2hV8lTBXMCwZp2nSNC6G2Di2th8mt+L7AQAA//8DADLq1M5QAAAA",
+					"encodedBody": true,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"36a261b70971531a-MIA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Mon, 05 Jun 2017 10:17:21 GMT"
+						],
+						"Etag": [
+							"W/\"50-vUesyKKhYeXpZsNbQWzhNw\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/users/2"
+					},
+					"method": {
+						"exactMatch": "PUT"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": "{\"name\":\"morpheus\",\"job\":\"zion resident\"}"
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 204,
+					"body": "",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"36a261c91f37531a-MIA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Date": [
+							"Mon, 05 Jun 2017 10:17:24 GMT"
+						],
+						"Etag": [
+							"W/\"2-mZFLkyvTelC5g8XnyQrpOw\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/users/2"
+					},
+					"method": {
+						"exactMatch": "DELETE"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": ""
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.11.4",
+		"timeExported": "2017-06-05T15:47:53+05:30"
+	}
+}

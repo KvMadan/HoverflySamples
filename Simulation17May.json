@@ -1,0 +1,73 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 201,
+					"body": "{\"name\":\"morpheus\",\"job\":\"leader\",\"id\":\"893\",\"createdAt\":\"2017-05-17T11:22:22.745Z\"}",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Cf-Ray": [
+							"360632cadf7558bb-DFW"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Wed, 17 May 2017 11:22:21 GMT"
+						],
+						"Etag": [
+							"W/\"54-2oRNQGJNlQwghZo7B0ur8g\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Powered-By": [
+							"Express"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/users"
+					},
+					"method": {
+						"exactMatch": "POST"
+					},
+					"destination": {
+						"exactMatch": "reqres.in"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": "{\"name\":\"morpheus\",\"job\":\"leader\"}"
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.11.3",
+		"timeExported": "2017-05-17T16:52:44+05:30"
+	}
+}

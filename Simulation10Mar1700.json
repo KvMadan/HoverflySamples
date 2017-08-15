@@ -1,0 +1,116 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 400,
+					"body": "",
+					"encodedBody": false,
+					"headers": {
+						"Date": [
+							"Fri, 10 Mar 2017 11:38:05 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					}
+				},
+				"request": {
+					"requestType": "recording",
+					"path": "/favicon.ico",
+					"method": "GET",
+					"destination": "localhost:8080",
+					"scheme": "http",
+					"query": "",
+					"body": "",
+					"headers": {
+						"Accept": [
+							"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+						],
+						"Accept-Encoding": [
+							"gzip, deflate"
+						],
+						"Accept-Language": [
+							"en-US,en;q=0.5"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"User-Agent": [
+							"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+						]
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?\u003e\u003ccustomer pin=\"123\"\u003e\u003cname\u003emkyong\u003c/name\u003e\u003c/customer\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"105"
+						],
+						"Content-Type": [
+							"application/xml"
+						],
+						"Date": [
+							"Fri, 10 Mar 2017 11:38:05 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					}
+				},
+				"request": {
+					"requestType": "recording",
+					"path": "/RESTfulExample/rest/xml/customer/123",
+					"method": "GET",
+					"destination": "localhost:8080",
+					"scheme": "http",
+					"query": "",
+					"body": "",
+					"headers": {
+						"Accept": [
+							"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+						],
+						"Accept-Encoding": [
+							"gzip, deflate"
+						],
+						"Accept-Language": [
+							"en-US,en;q=0.5"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Upgrade-Insecure-Requests": [
+							"1"
+						],
+						"User-Agent": [
+							"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+						]
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": [
+				{
+					"urlPattern": ".",
+					"delay": 5000
+				}
+			]
+		}
+	},
+	"meta": {
+		"schemaVersion": "v1",
+		"hoverflyVersion": "v0.10.2",
+		"timeExported": "2017-03-10T17:09:39+05:30"
+	}
+}
